@@ -46,6 +46,7 @@ section {
 .skills,
 .teams,
 .contact,
+.education,
 footer {
     font-family: 'Poppins', sans-serif;
 }
@@ -112,12 +113,14 @@ section .title::after {
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo{
+
+.navbar .logo {
     position: relative;
     cursor: default;
     opacity: 0;
     animation: slideRight 1s ease forwards;
 }
+
 .navbar .logo a {
     color: #fff;
     font-size: 35px;
@@ -362,6 +365,13 @@ section .title::after {
 
 
 /* edu section styling */
+.education {
+    color: #fff;
+}
+
+.education .title::after {
+    content: "what i Achieved";
+}
 
 .row-edu {
     display: grid;
@@ -409,19 +419,23 @@ section .title::after {
     background-color: #11a372;
     border: 2px solid white;
 }
-.box-edu h4{
+
+.box-edu h4 {
     position: relative;
     color: #11a372;
 }
-.box-edu h3{
+
+.box-edu h3 {
     font-size: 19px;
     padding: 10px 0px 6px;
     color: crimson;
 }
-.box-edu p{
+
+.box-edu p {
     line-height: 1.2;
     color: #fff;
     font-size: 17px;
+    line-height: 1.6;
 }
 
 /* services section styling */
@@ -517,12 +531,12 @@ section .title::after {
 
 .tech {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .container1 {
     width: 530px;
-    height: 500px;
+    height: 650px;
     padding: 0px 60px;
     margin-left: 20px;
 }
