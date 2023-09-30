@@ -611,19 +611,27 @@ section .title::after {
 }
 
 .progress-line.css span {
-    width: 90%;
+    width: 80%;
 }
 
 .progress-line.javascript span {
-    width: 90%;
+    width: 80%;
 }
 
 .progress-line.python span {
-    width: 90%;
+    width: 70%;
 }
 
 .progress-line.react span {
-    width: 90%;
+    width: 70%;
+}
+
+.progress-line.cplus span {
+    width: 70%;
+}
+
+.progress-line.mysql span {
+    width: 80%;
 }
 
 .progress-line span::after {
@@ -644,19 +652,27 @@ section .title::after {
 }
 
 .progress-line.css span::after {
-    content: "90%";
+    content: "80%";
 }
 
 .progress-line.javascript span::after {
-    content: "90%";
+    content: "80%";
 }
 
 .progress-line.python span::after {
-    content: "90%";
+    content: "70%";
 }
 
 .progress-line.react span::after {
-    content: "90%";
+    content: "70%";
+}
+
+.progress-line.cplus span::after {
+    content: "70%";
+}
+
+.progress-line.mysql span::after {
+    content: "80%";
 }
 
 .progress-line span::before {
