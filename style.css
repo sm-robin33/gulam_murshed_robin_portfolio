@@ -536,7 +536,7 @@ section .title::after {
 
 .container1 {
     width: 530px;
-    height: 650px;
+    height: 700px;
     padding: 0px 60px;
     margin-left: 20px;
 }
@@ -626,6 +626,10 @@ section .title::after {
     width: 70%;
 }
 
+.progress-line.php span {
+    width: 90%;
+}
+
 .progress-line.cplus span {
     width: 70%;
 }
@@ -665,6 +669,10 @@ section .title::after {
 
 .progress-line.react span::after {
     content: "70%";
+}
+
+.progress-line.php span::after {
+    content: "90%";
 }
 
 .progress-line.cplus span::after {
@@ -838,6 +846,7 @@ section .title::after {
 
 .services .row img {
     width: 100%;
+    height: 280px;
     border-radius: 8px;
     display: block;
     transition: transform 0, 5s;
@@ -907,6 +916,7 @@ section .title::after {
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
+    height: 350px;
     overflow: hidden;
     transition: all 0.3s ease;
 }
@@ -1139,6 +1149,8 @@ footer span a:hover {
 
 
 /* responsive media query start */
+
+/* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
@@ -1288,7 +1300,23 @@ footer span a:hover {
         font-size: 23px;
         line-height: 38px;
     }
+    .row-edu {
+        display: block;
+    }
+    .tech{
+        display: block;
+        margin-left: 0;
+
+    }
+    .container1{
+        width: 500px;
+        margin-left: -74px;
+    }
+    .skills{
+        margin-left: 0;
+    }
 }
+
 
 @keyframes slideRight {
     0% {
