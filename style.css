@@ -1300,19 +1300,23 @@ footer span a:hover {
         font-size: 23px;
         line-height: 38px;
     }
+
     .row-edu {
         display: block;
     }
-    .tech{
+
+    .tech {
         display: block;
         margin-left: 0;
 
     }
-    .container1{
+
+    .container1 {
         width: 500px;
         margin-left: -74px;
     }
-    .skills{
+
+    .skills {
         margin-left: 0;
     }
 }
